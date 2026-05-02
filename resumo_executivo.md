@@ -2,7 +2,7 @@
 
 **Projeto Final · Especialização em Engenharia de Dados — UNIFOR · Turma 02**  
 **Tema:** Vacinação · Painel SEIDIGI/DEMAS — Ministério da Saúde  
-**Equipe:** _(preencher)_  · **Prof. Cassio Pinheiro · Abril/2026**
+**Equipe:** Dante Dantas - 2518583, Rafael Tavares - 2517595 · **Prof. Cassio Pinheiro · Abril/2026**
 
 ---
 
@@ -18,17 +18,17 @@ A cobertura vacinal contra poliomielite injetável (VIP) no Brasil está em nív
 
 ## Por que a métrica importa
 
-| | **Narrativa Inicial** (frágil) | **Narrativa Corrigida** (robusta) |
-|---|---|---|
-| **Métrica** | Média anual de cobertura | % de meses na meta + série mensal |
-| **Granularidade** | Anual | Mensal |
-| **Tratamento de outliers** | Nenhum | Janeiros marcados como artefatos |
-| **Cobertura 2023** | 84,5 % (média) | 92 % dos meses < meta |
-| **Cobertura 2024** | 92,5 % (média) | 83 % dos meses < meta |
-| **Cobertura 2025** | 86,9 % (média) | 92 % dos meses < meta |
-| **Tendência aparente** | "subiu, depois caiu" | Estagnação |
-| **Meses na meta (38 obs)** | _(invisível)_ | **5 — todos janeiros** |
-| **Sem outliers de janeiro** | _(invisível)_ | **97 % dos meses < meta** |
+|                             | **Narrativa Inicial** (frágil) | **Narrativa Corrigida** (robusta) |
+| --------------------------- | ------------------------------ | --------------------------------- |
+| **Métrica**                 | Média anual de cobertura       | % de meses na meta + série mensal |
+| **Granularidade**           | Anual                          | Mensal                            |
+| **Tratamento de outliers**  | Nenhum                         | Janeiros marcados como artefatos  |
+| **Cobertura 2023**          | 84,5 % (média)                 | 92 % dos meses < meta             |
+| **Cobertura 2024**          | 92,5 % (média)                 | 83 % dos meses < meta             |
+| **Cobertura 2025**          | 86,9 % (média)                 | 92 % dos meses < meta             |
+| **Tendência aparente**      | "subiu, depois caiu"           | Estagnação                        |
+| **Meses na meta (38 obs)**  |                                | **5 — todos janeiros**            |
+| **Sem outliers de janeiro** |                                | **97 % dos meses < meta**         |
 
 A "melhora" aparente de 2024 (92,5%) foi puxada por um **único mês excepcional** (jan/2024 com 111,8% — registro administrativo, não cobertura real). Em 2025 a média voltou ao patamar de 2023, confirmando que não há tendência sustentada.
 
